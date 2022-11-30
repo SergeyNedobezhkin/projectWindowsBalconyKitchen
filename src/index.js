@@ -1,2 +1,3 @@
-import script from './modules/script';
-script();
+
+import modalСall from './modules/modalWindows';
+modalСall();
