@@ -1,2 +1,2 @@
-import script from './modules/script';
-script();
+import sliderСarousel from './modules/sliderСarousel';
+sliderСarousel();
