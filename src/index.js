@@ -1,2 +1,2 @@
-import sliderСarousel from './modules/sliderСarousel';
+import {sliderСarousel} from './modules/sliderСarousel';
 sliderСarousel();

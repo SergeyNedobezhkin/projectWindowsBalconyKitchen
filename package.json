@@ -16,6 +16,6 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "swiper": "^8.4.4"
+    "swiper": "^8.4.5"
   }
 }
