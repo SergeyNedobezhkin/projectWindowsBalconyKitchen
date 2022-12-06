@@ -1,2 +1,2 @@
-import timer from './modules/timer';
-timer('10 dec 2022');
+import smoothScroll from './modules/smoothScroll';
+smoothScroll();
