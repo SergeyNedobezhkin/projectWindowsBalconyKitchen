@@ -9,10 +9,7 @@ const timer = deadline => {
     const timerHours2 = document.querySelector('.timer-hours_2');
     const timerMinutes2 = document.querySelector('.timer-minutes_2');
     const timerSeconds2 = document.querySelector('.timer-seconds_2');
-
     let idInterval = 0;
-    console.log(timerDays);
-
     function getTimeRemaining() {
 
         const dateStop = new Date(deadline).getTime();
