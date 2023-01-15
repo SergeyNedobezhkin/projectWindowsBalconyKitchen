@@ -1662,15 +1662,6 @@ input.error {
     width: 100%;
     max-width: 576px;
   }
-
-  /* .body {
-    font-family: "NeoSansCyr-Regular", sans-serif;
-    line-height: 150%;
-    font-size: 16px;
-    height: 100%;
-    font-weight: 300;
-    color: #4f686e;
-  } */
 }
 
 @media (min-width: 768px) {
