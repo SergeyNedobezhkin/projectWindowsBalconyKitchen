@@ -1590,7 +1590,9 @@ input.error {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.45);
 }
-
+.swiperSlider {
+  overflow: hidden;
+}
 .benefits-arrows {
   display: flex;
   justify-content: space-between;
