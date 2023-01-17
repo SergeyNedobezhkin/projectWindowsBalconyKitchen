@@ -1,5 +1,4 @@
 "use strict";
-
 import Swiper, { Navigation, Pagination } from "swiper";
 const slider = () => {
   const swiperSlider = new Swiper(".swiperSlider", {
@@ -10,7 +9,7 @@ const slider = () => {
       prevEl: ".services__arrow--left",
     },
     breakpoints: {
-      577: {
+      560: {
         slidesPerView: 2,
         spaceBetween: 40,
       },
