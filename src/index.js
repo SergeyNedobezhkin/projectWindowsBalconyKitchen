@@ -1,3 +1,2 @@
-
-import modalСall from './modules/modalWindows';
-modalСall();
+import calc from "./modules/calc";
+calc();
