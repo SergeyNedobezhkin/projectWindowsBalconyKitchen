@@ -1,2 +1,10 @@
-import script from "./modules/script";
-script();
+import timer from "./modules/timer";
+import { sliderСarousel } from "./modules/sliderСarousel";
+import { slider } from "./modules/slider";
+import smoothScroll from "./modules/smoothScroll";
+import modalСall from "./modules/modalWindows";
+timer("10 dec 2023");
+smoothScroll();
+slider();
+sliderСarousel();
+modalСall();

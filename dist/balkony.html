@@ -14,6 +14,7 @@
 	<link href="fonts/font.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 	<script src="./js/main.js" defer></script>
 	<title>Остекление балконов и лоджий</title>
 	<meta name="keywords" content="остекление, алюминиевое, балконы, лоджии, застеклить, пластиковые, балконы, пвх, цена, утепление, отделка, акции">
@@ -182,31 +183,31 @@
     			<div class="heading-image"><i class="benefit-ico"></i></div>
     			<h2 class="heading"><span>Выгоды</span> для клиентов</h2>
     		</div>
-    		<div class="benefits-inner">
-				<div class="benefits-wrap">
-					<div class="benefits__item">
+    		<div class="benefits-inner swiper">
+				<div class="benefits-wrap swiper-wrapper">
+					<div class="benefits__item swiper-slide">
 						<p class="benefit-image">
 								<img src="images/benefits/4.png" alt="">
 							</p>
 							<p class="benefit-title">Рассрочка без банка </p>
 					</div>
-					<div class="benefits__item">
+					<div class="benefits__item swiper-slide">
 						<p class="benefit-image"><img src="images/benefits/2.png" alt=""></p>
 						<p class="benefit-title">Гарантии от 3 до 10 лет</p>
 					</div>
-					<div class="benefits__item">
+					<div class="benefits__item swiper-slide">
 						<p class="benefit-image"><img src="images/benefits/3.png" alt=""></p>
 						<p class="benefit-title">Индивидуальный подход</p>
 					</div>
-					<div class="benefits__item">
+					<div class="benefits__item swiper-slide">
 						<p class="benefit-image"><img src="images/benefits/1.png" alt=""></p>
 						<p class="benefit-title">Бесплатные консультации</p>
 					</div>
-					<div class="benefits__item">
+					<div class="benefits__item swiper-slide">
 						<p class="benefit-image"><img src="images/benefits/5.png" alt=""></p>
 						<p class="benefit-title">Бесплатный выезд мастера на дом</p>
 					</div>
-					<div class="benefits__item">
+					<div class="benefits__item swiper-slide">
 						<p class="benefit-image"><img src="images/benefits/6.png" alt=""></p>
 						<p class="benefit-title">Окна от лучших производителей</p>
 					</div>
@@ -223,14 +224,15 @@
 				</div>
     		</div>
     </div>
-    <div id="services" class="section">
+   <div id="services" class="section">
     	<div class="container">
     		<div class="section-title">
     			<div class="heading-image"><i class="service-ico"></i></div>
     			<h2 class="heading white">Наши <span>услуги</span></h2>
     		</div>
-    		<div class="row">
-	    		<div class="col-md-12 col-lg-6">
+				<div class="slider-container swiperSlider">
+    		<div class="row swiper-wrapper">
+	    		<div class="col-md-12 col-lg-6 swiper-slide">
 	    			<div class="service-block">
 	    				<div class="service-image">
 	    					<img src="images/services/1.jpg" alt="">
@@ -275,7 +277,7 @@
 	    				</div>
 	    			</div>
 	    		</div>
-	    		<div class="col-md-12 col-lg-6">
+	    		<div class="col-md-12 col-lg-6 swiper-slide">
 	    			<div class="service-block">
 	    				<div class="service-image">
 	    					<img src="images/services/2.jpg" alt="">
@@ -316,7 +318,7 @@
 	    				</div>
 	    			</div>
 	    		</div>
-	    		<div class="col-md-12 col-lg-6">
+	    		<div class="col-md-12 col-lg-6 swiper-slide">
 	    			<div class="service-block">
 	    				<div class="service-image">
 	    					<img src="images/services/3.jpg" alt="">
@@ -362,7 +364,7 @@
 	    				</div>
 	    			</div>
 	    		</div>
-	    		<div class="col-md-12 col-lg-6">
+	    		<div class="col-md-12 col-lg-6 swiper-slide">
 	    			<div class="service-block">
 	    				<div class="service-image">
 	    					<img src="images/services/4.jpg" alt="">
@@ -427,6 +429,7 @@
 	    				</div>
 	    			</div>
 	    		</div>
+				</div>
 					<div class="services-arrows">
 					<div class="services__arrow services__arrow--left">
 						<img src="images/benefits/left-arrow.svg" alt="">
@@ -435,6 +438,7 @@
 						<img src="images/benefits/right-arrow.svg" alt="">
 					</div>
 				</div>	
+			
     		</div>
     	</div>
     </div>
@@ -448,10 +452,10 @@
     					<div class="countdown" data-days="7">
 							<div class="countdown-text">До конца акции осталось:
 								<div class="count-wrap">
-									<div class="count count_1">Дней:</br> <span>01</span></div>
-									<div class="count count_2">Часов:</br> <span>02</span></div>
-									<div class="count count_3">Минут:</br> <span>03</span></div>
-									<div class="count count_4">Секунд:</br> <span>04</span></div>
+									<div class="count count_1">Дней:</br> <span class="timer-days">01</span></div>
+									<div class="count count_2">Часов:</br> <span class="timer-hours">02</span></div>
+									<div class="count count_3">Минут:</br> <span class="timer-minutes">03</span></div>
+									<div class="count count_4">Секунд:</br> <span class="timer-seconds">04</span></div>
 								</div>
 							</div>
 						</div>
@@ -636,10 +640,10 @@
     					<div class="countdown" data-days="7">
 							<div class="countdown-text">До конца акции осталось:
 								<div class="count-wrap">
-									<div class="count count_1">Дней:</br> <span>01</span></div>
-									<div class="count count_2">Часов:</br> <span>02</span></div>
-									<div class="count count_3">Минут:</br> <span>03</span></div>
-									<div class="count count_4">Секунд:</br> <span>04</span></div>
+									<div class="count count_1">Дней:</br> <span class="timer-days_2">01</span></div>
+									<div class="count count_2">Часов:</br> <span class="timer-hours_2">02</span></div>
+									<div class="count count_3">Минут:</br> <span class="timer-minutes_2">03</span></div>
+									<div class="count count_4">Секунд:</br> <span class="timer-seconds_2">04</span></div>
 								</div>
 							</div>
 						</div>
