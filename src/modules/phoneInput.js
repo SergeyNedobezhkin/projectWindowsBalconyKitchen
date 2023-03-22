@@ -59,10 +59,12 @@ const phoneInput = () => {
       if (input.value.length > 13) {
         input.value = formatedInputValue;
         e.target.classList.remove("error");
-        e.target.style = "";
         e.target.classList.add("success");
+        e.target.style = "";
       } else {
+        e.target.classList.remove("success");
         e.target.classList.add("error");
+
         e.target.style = "border:solid; border-width: 5px; border-color: red;";
       }
       input.value = formatedInputValue;
