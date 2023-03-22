@@ -4,12 +4,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="/favicon.ico">
-	<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-	<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-	<link href="favicon.ico" rel="icon" type="image/x-icon">
-	<link href="favicon.ico" rel="icon">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="fonts/font.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet">
@@ -279,7 +273,7 @@
 						<div class="order-form rf">
 							<h3 class="order-form-heading">Оставить заявку</h3>
 							<div class="order-form-subheading">на получение скидки 20%</div>
-							<form name="action-form" class="form-horizontal">
+							<form name="action-form"  id="form1"   class="form-horizontal">
 								<div class="form-group">
 									<div class="col-sm-12">
 										<input type="text" name="fio" class="form-control required" placeholder="ваше имя">
@@ -293,7 +287,7 @@
 								<div class="form-group">
 									<div class="col-sm-12">
 										<div class="order-form-button">
-												<input type="hidden" name="page" value="Окна">
+												<!-- <input type="hidden" name="page" value="Окна"> -->
 											<button type="submit" class="btn btn-warning btn-block feedback">Получить скидку!</button>
 										</div>
 									</div>
@@ -467,7 +461,7 @@
     					<div class="order-form rf">
     						<h3 class="order-form-heading">Оставить заявку</h3>
     						<div class="order-form-subheading">на получение скидки 20%</div>
-    						<form name="action-form2" class="form-horizontal">
+    						<form name="action-form2" id="form2"   class="form-horizontal">
     							<div class="form-group">
     								<div class="col-sm-12">
     									<input type="text" name="fio" class="form-control required" placeholder="ваше имя">
@@ -481,7 +475,7 @@
     							<div class="form-group">
     								<div class="col-sm-12">
     									<div class="order-form-button">
-    									    <input type="hidden" name="page" value="Окна">
+    									    <!-- <input type="hidden" name="page" value="Окна"> -->
     										<button type="submit" class="btn btn-warning btn-block feedback">Получить скидку</button>
     									</div>
     								</div>
@@ -582,7 +576,7 @@
         </div>
         <div class="box-modal_body rf">
             <p class="text-center">Оставьте, пожалуйста, заявку. Мы позвоним Вам в ближайшее время и ответим на все вопросы!</p>
-            <form name="callback-form">
+            <form name="callback-form"   id="form3">
                 <div class="form-group">
                     <input type="text" name="fio" class="form-control required" placeholder="Ваше имя*">
                 </div>
@@ -592,7 +586,7 @@
                 <div class="form-action">
                     <div class="text-center"><button type="submit" class="btn btn-warning feedback">Свяжитесь со мной!</button></div>
                 </div>
-                <input type="hidden" name="page" value="Окна">
+                <!-- <input type="hidden" name="page" value="Окна"> -->
             </form>
             <span class="help-block">Гарантируем 100% конфиденциальность. Ваша информация не будет распространяться.</span>
         </div>
@@ -605,7 +599,7 @@
         </div>
         <div class="box-modal_body rf">
             <p class="text-center">Оставьте, пожалуйста, заявку и мы свяжемся с Вами, чтобы рассказать детали акции и Вашу скидку!</p>
-            <form name="order-form">
+            <form name="order-form"   id="form4">
                 <div class="form-group">
                     <input type="text" name="fio" class="form-control required" placeholder="Ваше имя*">
                 </div>
@@ -615,7 +609,7 @@
                 <div class="form-action">
                     <div class="text-center"><button type="submit" class="btn btn-success feedback">Принять участие!</button></div>
                 </div>
-                <input type="hidden" name="page" value="Окна">
+                <!-- <input type="hidden" name="page" value="Окна"> -->
             </form>
             <span class="help-block">Гарантируем 100% конфиденциальность. Ваша информация не будет распространяться.</span>
         </div>
@@ -628,7 +622,7 @@
         </div>
         <div class="box-modal_body rf">
             <p class="text-center">Оставьте заявку и специалист свяжется с Вами в ближайшее время!</p>
-            <form name="application-form">
+            <form name="application-form"   id="form5">
                 <div class="form-group">
                     <input type="text" name="fio" class="form-control required" placeholder="Ваше имя*">
                 </div>
@@ -638,7 +632,7 @@
                 <div class="form-action">
                     <div class="text-center"><button type="submit" class="btn btn-success feedback">Вызвать замерщика!</button></div>
                 </div>
-                <input type="hidden" name="page" value="Окна">
+                <!-- <input type="hidden" name="page" value="Окна"> -->
                 <input type="hidden" name="subject">
             </form>
             <span class="help-block">Гарантируем 100% конфиденциальность. Ваша информация не будет распространяться.</span>
@@ -669,7 +663,7 @@
         </div>
         <div class="box-modal_body rf">
             <p class="text-center">Оставьте, пожалуйста, заявку. Мы позвоним Вам в ближайшее время и ответим на все вопросы!</p>
-            <form name="callback-form">
+            <form name="callback-form"   id="form6">
                 <div class="form-group">
                     <input type="text" name="fio" class="form-control required" placeholder="Ваше имя*">
                 </div>
@@ -679,7 +673,7 @@
                 <div class="form-action">
                     <div class="text-center"><button type="submit" class="btn btn-warning feedback">Свяжитесь со мной!</button></div>
                 </div>
-                <input type="hidden" name="page" value="Окна">
+                <!-- <input type="hidden" name="page" value="Окна"> -->
             </form>
             <span class="help-block">Гарантируем 100% конфиденциальность. Ваша информация не будет распространяться.</span>
         </div>
@@ -695,7 +689,7 @@
 			</div>
 			<div class="box-modal_body rf">
 				<p class="text-center">Оставьте заявку и специалист свяжется с Вами в ближайшее время!</p>
-				<form name="application-form">
+				<form name="application-form"   id="form7">
 					<div class="form-group">
 						<input type="text" name="fio" class="form-control required" placeholder="Ваше имя*">
 					</div>
@@ -705,7 +699,7 @@
 					<div class="form-action">
 						<div class="text-center"><button type="submit" class="btn btn-success feedback">Вызвать замерщика!</button></div>
 					</div>
-					<input type="hidden" name="page" value="Окна">
+					<!-- <input type="hidden" name="page" value="Окна"> -->
 					<input type="hidden" name="subject" value="Стандартные ПВХ-окна">
 				</form>
 				<span class="help-block">Гарантируем 100% конфиденциальность. Ваша информация не будет распространяться.</span>

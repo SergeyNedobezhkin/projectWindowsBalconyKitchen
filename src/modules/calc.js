@@ -10,18 +10,20 @@ const calc = () => {
     const calcTypeValue = +calcType.options[calcType.selectedIndex].value;
     const calcTypeMaterialValue =
       +calcTypeMaterial.options[calcTypeMaterial.selectedIndex].value;
+
     calcTotal.value =
       calcInputSquare.value * calcTypeValue * calcTypeMaterialValue;
   };
-
-  calcBlock.addEventListener("input", (e) => {
-    if (
-      e.target === calcType ||
-      e.target === calcTypeMaterial ||
-      e.target === calcInputSquare
-    ) {
-      countCalc();
-    }
-  });
+  if (calcBlock !== null) {
+    calcBlock.addEventListener("input", (e) => {
+      if (
+        e.target === calcType ||
+        e.target === calcTypeMaterial ||
+        e.target === calcInputSquare
+      ) {
+        countCalc();
+      }
+    });
+  }
 };
 export default calc;
