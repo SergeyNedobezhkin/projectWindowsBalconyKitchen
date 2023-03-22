@@ -18,34 +18,6 @@ const sendForm = ({ formTag, someElem = [] }) => {
         }
         return validate(value);
       }
-
-      // if (e.target.matches('[name="phone"]')) {
-      //   let value = e.target.value;
-
-      //   if (
-      //     value.replace(/^\+?[78][-\(]?\d{3}\)?-?\d{0,3}-?\d{2}-?\d{0,2}$/i, "")
-      //   ) {
-      //     e.target.classList.remove("success");
-      //     e.target.classList.add("error");
-      //     e.target.style =
-      //       "border:solid; border-width: 5px; border-color: red;";
-      //     value = false;
-      //   } else if (
-      //     !value.replace(
-      //       /^\+?[78][-\(]?\d{3}\)?-?\d{0,3}-?\d{2}-?\d{0,2}$/i,
-      //       ""
-      //     )
-      //   ) {
-      //     {
-      //       e.target.classList.remove("error");
-      //       e.target.style = "";
-      //       e.target.classList.add("success");
-      //       value = true;
-      //     }
-      //   }
-
-      //   return validate(value);
-      // }
     };
 
     const validate = (list) => {
